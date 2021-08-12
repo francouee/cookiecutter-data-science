@@ -6,19 +6,20 @@ authors = ["François <francois.culiere@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "{{ cookiecutter.python_interpreter }}"
-pandas = *
-scikit-learn = *
-statsmodels = *
-seaborn = *
-python-dotenv = *
+pandas = "*"
+scikit-learn = "*"
+statsmodels = "*"
+seaborn = "*"
+python-dotenv = "*"
 
 [tool.poetry.dev-dependencies]
-black = *
-Sphinx = *
-sphinx-rtd-theme = *
-myst-parser = *
-coverage = *
-flake8 = *
+black = "*"
+Sphinx = "*"
+sphinx-rtd-theme = "*"
+myst-parser = "*"
+coverage = "*"
+flake8 = "*"
+jupyterlab = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
