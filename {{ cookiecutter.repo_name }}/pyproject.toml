@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "0.1"
+description = "{{ cookiecutter.description }}"
+authors = ["François <francois.culiere@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "{{ cookiecutter.python_interpreter }}"
+pandas = *
+scikit-learn = *
+statsmodels = *
+seaborn = *
+python-dotenv = *
+
+[tool.poetry.dev-dependencies]
+black = *
+Sphinx = *
+sphinx-rtd-theme = *
+myst-parser = *
+coverage = *
+flake8 = *
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
